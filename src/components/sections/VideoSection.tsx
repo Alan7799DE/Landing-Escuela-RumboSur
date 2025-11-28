@@ -29,7 +29,7 @@ export const VideoSection = () => {
               size="lg"
               variant="outline"
               onClick={() => window.open("https://www.youtube.com/@SamantaMusella", "_blank")}
-              className="border-2 border-stage-foreground/30 text-stage-foreground hover:bg-stage-foreground/10 font-semibold px-8 py-6 rounded-full"
+              className="border-2 border-white/80 text-white bg-white/10 backdrop-blur-sm hover:bg-white/20 hover:border-white font-semibold px-8 py-6 rounded-full"
             >
               <Youtube className="mr-2" size={20} />
               Ver más en YouTube
