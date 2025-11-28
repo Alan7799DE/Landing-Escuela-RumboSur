@@ -1,12 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Navigation } from "@/components/Navigation";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { ProposalSection } from "@/components/sections/ProposalSection";
+import { ClassesSection } from "@/components/sections/ClassesSection";
+import { ForWhoSection } from "@/components/sections/ForWhoSection";
+import { MethodSection } from "@/components/sections/MethodSection";
+import { CommunitySection } from "@/components/sections/CommunitySection";
+import { StudioSection } from "@/components/sections/StudioSection";
+import { TeamSection } from "@/components/sections/TeamSection";
+import { VideoSection } from "@/components/sections/VideoSection";
+import { SocialSection } from "@/components/sections/SocialSection";
+import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
+import { FAQSection } from "@/components/sections/FAQSection";
+import { ContactSection } from "@/components/sections/ContactSection";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Navigation />
+      <HeroSection />
+      <ProposalSection />
+      <ClassesSection />
+      <ForWhoSection />
+      <MethodSection />
+      <CommunitySection />
+      <StudioSection />
+      <TeamSection />
+      <VideoSection />
+      <SocialSection />
+      <TestimonialsSection />
+      <FAQSection />
+      <ContactSection />
+      <Footer />
+      <WhatsAppButton />
     </div>
   );
 };
