@@ -47,7 +47,7 @@ export const HeroSection = () => {
             <Button size="lg" onClick={scrollToContact} className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105">
               Quiero mi clase de canto
             </Button>
-            <Button size="lg" variant="outline" onClick={openWhatsApp} className="border-2 border-stage-foreground/30 text-stage-foreground hover:bg-stage-foreground/10 font-semibold text-lg px-8 py-6 rounded-full font-sans">
+            <Button size="lg" variant="outline" onClick={openWhatsApp} className="border-2 border-white/80 text-white bg-white/10 backdrop-blur-sm hover:bg-white/20 hover:border-white font-semibold text-lg px-8 py-6 rounded-full">
               <MessageCircle className="mr-2" size={20} />
               Escribinos por WhatsApp
             </Button>
