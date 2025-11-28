@@ -45,7 +45,7 @@ export const Navigation = () => {
             onClick={(e) => handleClick(e, "#inicio")}
             className="text-2xl font-bold text-stage-foreground hover:text-primary transition-colors"
           >
-            Rumbo Sur
+            Escuela Rumbo Sur
           </a>
 
           {/* Desktop Menu */}
