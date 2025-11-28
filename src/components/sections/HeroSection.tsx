@@ -1,28 +1,22 @@
 import { Button } from "@/components/ui/button";
 import { Music2, MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-stage.jpg";
-
 export const HeroSection = () => {
   const scrollToContact = () => {
     const element = document.querySelector("#contacto");
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({
+        behavior: "smooth"
+      });
     }
   };
-
   const openWhatsApp = () => {
     window.open("https://wa.me/XXXXXXXXXXX", "_blank");
   };
-
-  return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="Comunidad de Rumbo Sur en el escenario"
-          className="w-full h-full object-cover"
-        />
+        <img src={heroImage} alt="Comunidad de Rumbo Sur en el escenario" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-stage-dark/80 via-stage-dark/70 to-stage-dark/90" />
       </div>
 
@@ -50,19 +44,10 @@ export const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
-            <Button
-              size="lg"
-              onClick={scrollToContact}
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105"
-            >
+            <Button size="lg" onClick={scrollToContact} className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105">
               Quiero mi clase de canto
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              onClick={openWhatsApp}
-              className="border-2 border-stage-foreground/30 text-stage-foreground hover:bg-stage-foreground/10 font-semibold text-lg px-8 py-6 rounded-full"
-            >
+            <Button size="lg" variant="outline" onClick={openWhatsApp} className="border-2 border-stage-foreground/30 text-stage-foreground hover:bg-stage-foreground/10 font-semibold text-lg px-8 py-6 rounded-full font-sans">
               <MessageCircle className="mr-2" size={20} />
               Escribinos por WhatsApp
             </Button>
@@ -76,6 +61,5 @@ export const HeroSection = () => {
           <div className="w-1 h-3 bg-primary rounded-full mt-2" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
