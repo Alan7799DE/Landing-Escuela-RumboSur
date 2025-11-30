@@ -52,8 +52,19 @@ export const Footer = () => {
             </div>
 
             {/* Copyright */}
-            <div className="text-center text-sm text-muted-foreground pt-8">
+            <div className="text-center text-sm text-muted-foreground pt-8 space-y-2">
               <p>&copy; {new Date().getFullYear()} Rumbo Sur. Todos los derechos reservados.</p>
+              <p>
+                Diseñado y Desarrollado por{" "}
+                <a
+                  href="https://atautomation.dev/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline transition-all"
+                >
+                  AT Automatizaciones
+                </a>
+              </p>
             </div>
           </div>
         </div>
