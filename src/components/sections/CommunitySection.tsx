@@ -4,14 +4,14 @@ import community3 from "@/assets/community-3.jpg";
 import community4 from "@/assets/community-4.jpg";
 
 const keywords = [
-  "acompañamiento",
-  "confianza",
-  "disfrute",
-  "equipo",
-  "crecimiento",
-  "comunidad",
-  "apoyo",
-  "escucha",
+  "Acompañamiento",
+  "Confianza",
+  "Disfrute",
+  "Equipo",
+  "Crecimiento",
+  "Comunidad",
+  "Apoyo",
+  "Escucha",
 ];
 
 export const CommunitySection = () => {
