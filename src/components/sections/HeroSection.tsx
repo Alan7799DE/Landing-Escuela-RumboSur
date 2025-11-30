@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle } from "lucide-react";
+import { Music2, MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-stage.jpg";
-import logo from "@/assets/logo-rumbo-sur.png";
 export const HeroSection = () => {
   const scrollToContact = () => {
     const element = document.querySelector("#contacto");
@@ -24,12 +23,8 @@ export const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-32 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
-          <div className="flex justify-center mb-8">
-            <img 
-              src={logo} 
-              alt="Rumbo Sur - Escuela de Canto" 
-              className="h-40 md:h-52 lg:h-64 w-auto drop-shadow-2xl"
-            />
+          <div className="flex justify-center mb-6">
+            <Music2 size={60} className="text-primary" />
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-stage-foreground leading-tight">
