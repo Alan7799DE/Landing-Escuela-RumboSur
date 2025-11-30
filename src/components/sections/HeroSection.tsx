@@ -46,7 +46,7 @@ export const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 md:pt-6">
             <Button size="lg" onClick={scrollToContact} className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105">
-              Quiero mi clase de canto
+              Quiero mi clase de prueba
             </Button>
             <Button size="lg" variant="outline" onClick={openWhatsApp} className="border-2 border-white/80 text-white bg-white/10 backdrop-blur-sm hover:bg-white/20 hover:border-white font-semibold text-lg px-8 py-6 rounded-full">
               <MessageCircle className="mr-2" size={20} />
