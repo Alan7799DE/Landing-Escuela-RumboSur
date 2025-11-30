@@ -39,28 +39,32 @@ export const TestimonialsSection = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {testimonials.map((testimonial, index) => (
-              <Card
+              <button
                 key={index}
-                className="bg-stage-foreground/5 border-stage-foreground/10 hover:bg-stage-foreground/10 transition-all duration-300 hover:scale-105 animate-fade-in"
-                style={{ animationDelay: `${index * 100}ms` }}
+                className="text-left w-full"
               >
-                <CardContent className="pt-6">
-                  <div className="space-y-4">
-                    <Quote className="text-primary" size={32} />
-                    <p className="text-stage-foreground/90 leading-relaxed italic">
-                      "{testimonial.text}"
-                    </p>
-                    <div className="flex items-center gap-3 pt-4">
-                      <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
-                        <span className="text-primary font-bold">
-                          {testimonial.name.charAt(0)}
-                        </span>
+                <Card
+                  className="bg-stage-foreground/5 border-stage-foreground/10 hover:bg-stage-foreground/10 transition-all duration-300 hover:scale-105 animate-fade-in cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  <CardContent className="pt-6">
+                    <div className="space-y-4">
+                      <Quote className="text-primary" size={32} />
+                      <p className="text-stage-foreground/90 leading-relaxed italic">
+                        "{testimonial.text}"
+                      </p>
+                      <div className="flex items-center gap-3 pt-4">
+                        <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
+                          <span className="text-primary font-bold">
+                            {testimonial.name.charAt(0)}
+                          </span>
+                        </div>
+                        <p className="font-semibold text-stage-foreground">{testimonial.name}</p>
                       </div>
-                      <p className="font-semibold text-stage-foreground">{testimonial.name}</p>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
+                  </CardContent>
+                </Card>
+              </button>
             ))}
           </div>
         </div>
