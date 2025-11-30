@@ -1,39 +1,7 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { MapPin, MessageCircle, Send } from "lucide-react";
-import { useToast } from "@/hooks/use-toast";
+import { MapPin, MessageCircle } from "lucide-react";
 
 export const ContactSection = () => {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Basic validation
-    if (!formData.name || !formData.email || !formData.message) {
-      toast({
-        title: "Completá todos los campos",
-        description: "Por favor, completá todos los campos del formulario.",
-        variant: "destructive",
-      });
-      return;
-    }
-    
-    // Here you would typically send the form data
-    toast({
-      title: "¡Mensaje enviado!",
-      description: "Nos pondremos en contacto con vos a la brevedad.",
-    });
-    
-    setFormData({ name: "", email: "", message: "" });
-  };
-
   const openWhatsApp = () => {
     window.open("https://wa.me/XXXXXXXXXXX", "_blank");
   };
@@ -75,54 +43,17 @@ export const ContactSection = () => {
               </div>
             </div>
 
-            {/* Contact Form */}
-            <div className="space-y-6 animate-fade-in">
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <Input
-                    type="text"
-                    placeholder="Tu nombre"
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="bg-stage-foreground/10 border-stage-foreground/20 text-stage-foreground placeholder:text-stage-foreground/50 rounded-xl py-6"
-                  />
-                </div>
-                <div>
-                  <Input
-                    type="email"
-                    placeholder="Tu email"
-                    value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="bg-stage-foreground/10 border-stage-foreground/20 text-stage-foreground placeholder:text-stage-foreground/50 rounded-xl py-6"
-                  />
-                </div>
-                <div>
-                  <Textarea
-                    placeholder="Tu mensaje"
-                    value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className="bg-stage-foreground/10 border-stage-foreground/20 text-stage-foreground placeholder:text-stage-foreground/50 rounded-xl min-h-32"
-                  />
-                </div>
-                <Button
-                  type="submit"
-                  size="lg"
-                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-6 rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105"
-                >
-                  <Send className="mr-2" size={20} />
-                  Quiero más info
-                </Button>
-              </form>
-
-              <div className="relative">
-                <div className="absolute inset-0 flex items-center">
-                  <div className="w-full border-t border-stage-foreground/20" />
-                </div>
-                <div className="relative flex justify-center text-sm">
-                  <span className="px-4 bg-stage-dark text-stage-foreground/60">o</span>
-                </div>
+            {/* WhatsApp Contact */}
+            <div className="space-y-6 animate-fade-in flex flex-col justify-center">
+              <div className="text-center space-y-4">
+                <h3 className="text-2xl font-semibold text-stage-foreground">
+                  ¿Querés más información?
+                </h3>
+                <p className="text-stage-foreground/80">
+                  Escribinos por WhatsApp y te contamos todo sobre nuestras clases y talleres.
+                </p>
               </div>
-
+              
               <Button
                 size="lg"
                 onClick={openWhatsApp}
