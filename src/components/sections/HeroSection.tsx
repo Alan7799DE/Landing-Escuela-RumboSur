@@ -14,7 +14,7 @@ export const HeroSection = () => {
   const openWhatsApp = () => {
     window.open("https://wa.me/XXXXXXXXXXX", "_blank");
   };
-  return <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section id="inicio" className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img src={heroImage} alt="Comunidad de Rumbo Sur en el escenario" className="w-full h-full object-cover" />
@@ -22,29 +22,29 @@ export const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-32 text-center">
-        <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
-          <div className="flex justify-center mb-6">
-            <img src={logoRumboSur} alt="Logo Rumbo Sur" className="w-40 md:w-48 h-auto" />
+      <div className="relative z-10 container mx-auto px-4 py-12 md:py-16 text-center">
+        <div className="max-w-4xl mx-auto space-y-4 md:space-y-6 animate-fade-in">
+          <div className="flex justify-center mb-3">
+            <img src={logoRumboSur} alt="Logo Rumbo Sur" className="w-32 md:w-40 h-auto" />
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold text-stage-foreground leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold text-stage-foreground leading-tight">
             Encontrá tu voz.
             <br />
             <span className="text-primary">Cantá en comunidad.</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-stage-foreground/90 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-stage-foreground/90 max-w-3xl mx-auto leading-relaxed">
             Rumbo Sur es una escuela de canto que acompaña tu proceso de desarrollo personal y artístico.
             Con práctica escénica, shows en vivo y un espacio cuidado para crecer.
           </p>
 
-          <p className="text-lg text-stage-foreground/80 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-stage-foreground/80 max-w-2xl mx-auto">
             Clases personalizadas, práctica escénica y shows en vivo durante todo el año.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 md:pt-6">
             <Button size="lg" onClick={scrollToContact} className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105">
               Quiero mi clase de canto
             </Button>
