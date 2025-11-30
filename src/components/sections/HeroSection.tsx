@@ -12,7 +12,7 @@ export const HeroSection = () => {
     }
   };
   const openWhatsApp = () => {
-    window.open("https://wa.me/XXXXXXXXXXX", "_blank");
+    window.open("https://api.whatsapp.com/send/?phone=5491136135864&text&type=phone_number&app_absent=0", "_blank");
   };
   return <section id="inicio" className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}

@@ -32,7 +32,7 @@ const classes = [
 
 export const ClassesSection = () => {
   const openWhatsApp = () => {
-    window.open("https://wa.me/XXXXXXXXXXX", "_blank");
+    window.open("https://api.whatsapp.com/send/?phone=5491136135864&text&type=phone_number&app_absent=0", "_blank");
   };
 
   return (

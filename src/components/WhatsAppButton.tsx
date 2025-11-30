@@ -2,8 +2,7 @@ import { MessageCircle } from "lucide-react";
 
 export const WhatsAppButton = () => {
   const handleClick = () => {
-    // Placeholder - replace with actual WhatsApp number
-    window.open("https://wa.me/XXXXXXXXXXX", "_blank");
+    window.open("https://api.whatsapp.com/send/?phone=5491136135864&text&type=phone_number&app_absent=0", "_blank");
   };
 
   return (
