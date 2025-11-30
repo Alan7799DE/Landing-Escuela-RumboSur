@@ -27,8 +27,8 @@ const Index = () => {
       <StudioSection />
       <TeamSection />
       <VideoSection />
-      <TestimonialsSection />
       <FAQSection />
+      <TestimonialsSection />
       <ContactSection />
       <Footer />
       <WhatsAppButton />
