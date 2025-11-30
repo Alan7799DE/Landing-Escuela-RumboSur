@@ -17,7 +17,7 @@ export const VideoSection = () => {
           <div className="relative rounded-3xl overflow-hidden shadow-2xl animate-fade-in" style={{ paddingBottom: "56.25%" }}>
             <iframe
               className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/watch?v=xEDYK94RJgQ"
+              src="https://www.youtube.com/embed/xEDYK94RJgQ"
               title="Rumbo Sur - Shows y presentaciones"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
