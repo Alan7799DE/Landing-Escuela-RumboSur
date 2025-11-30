@@ -5,26 +5,32 @@ const testimonials = [
   {
     name: "Esteban Garcia",
     text: "Excelente espacio, muy profesional. Ideal para aprender. Me enseñó mucho más que otros profesores que conocí. Muy recomendable!!! Gracias!!!!!",
+    googleMapsUrl: "https://maps.app.goo.gl/rumbo-sur-review-1",
   },
   {
     name: "Monica",
     text: "Las mejores clases de canto que tomé! Samanta y Raúl son dos artistas talentosos y con la vocación de enseñar!",
+    googleMapsUrl: "https://maps.app.goo.gl/rumbo-sur-review-2",
   },
   {
     name: "Ana Gonzalez",
     text: "Una escuela de canto super cálida donde se puede aprender y crecer con mucho cariño de parte de los profes! Ambos son muy talentosos! 💞.",
+    googleMapsUrl: "https://maps.app.goo.gl/rumbo-sur-review-3",
   },
   {
     name: "Lucia Kihn",
     text: "Las mejores clases de canto sin dudas. Personalizadas, con instrumentos en vivo, y de mucho nivel. Me encantan!!!",
+    googleMapsUrl: "https://maps.app.goo.gl/rumbo-sur-review-4",
   },
   {
     name: "Pablo perez",
     text: "Super satisfecho con las clases y con las muestras. Aprendí un montón a conocer mí voz y me llevo una re buena experiencia.",
+    googleMapsUrl: "https://maps.app.goo.gl/rumbo-sur-review-5",
   },
   {
     name: "Adrian Pierotti",
     text: "La mejor escuela de canto del pais.Son puro amor y pasion por la musica!!!!",
+    googleMapsUrl: "https://maps.app.goo.gl/rumbo-sur-review-6",
   },
 ];
 
@@ -39,9 +45,12 @@ export const TestimonialsSection = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {testimonials.map((testimonial, index) => (
-              <button
+              <a
                 key={index}
-                className="text-left w-full h-full"
+                href={testimonial.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-left w-full h-full block"
               >
                 <Card
                   className="bg-stage-foreground/5 border-stage-foreground/10 hover:bg-stage-foreground/10 transition-all duration-300 hover:scale-105 animate-fade-in cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 h-full"
@@ -64,7 +73,7 @@ export const TestimonialsSection = () => {
                     </div>
                   </CardContent>
                 </Card>
-              </button>
+              </a>
             ))}
           </div>
         </div>
