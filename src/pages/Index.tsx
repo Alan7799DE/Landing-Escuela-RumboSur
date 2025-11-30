@@ -9,7 +9,6 @@ import { CommunitySection } from "@/components/sections/CommunitySection";
 import { StudioSection } from "@/components/sections/StudioSection";
 import { TeamSection } from "@/components/sections/TeamSection";
 import { VideoSection } from "@/components/sections/VideoSection";
-import { SocialSection } from "@/components/sections/SocialSection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { ContactSection } from "@/components/sections/ContactSection";
@@ -28,7 +27,6 @@ const Index = () => {
       <StudioSection />
       <TeamSection />
       <VideoSection />
-      <SocialSection />
       <TestimonialsSection />
       <FAQSection />
       <ContactSection />
