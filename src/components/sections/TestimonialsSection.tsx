@@ -3,28 +3,28 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "María G.",
-    text: "Nunca había cantado frente a nadie y en Rumbo Sur me ayudaron a animarme. Ahora estoy en el escenario y no lo puedo creer.",
+    name: "Esteban Garcia",
+    text: "Excelente espacio, muy profesional. Ideal para aprender. Me enseñó mucho más que otros profesores que conocí. Muy recomendable!!! Gracias!!!!!",
   },
   {
-    name: "Joaquín R.",
-    text: "El acompañamiento de Samanta y Raúl es único. No es sólo técnica, es un espacio para crecer como persona.",
+    name: "Monica",
+    text: "Las mejores clases de canto que tomé! Samanta y Raúl son dos artistas talentosos y con la vocación de enseñar!",
   },
   {
-    name: "Lucía M.",
-    text: "La comunidad que se genera acá es increíble. Nos escuchamos, nos acompañamos y crecemos juntos.",
+    name: "Ana Gonzalez",
+    text: "Una escuela de canto super cálida donde se puede aprender y crecer con mucho cariño de parte de los profes! Ambos son muy talentosos! 💞.",
   },
   {
-    name: "Carlos P.",
-    text: "Vine con mucha vergüenza y hoy puedo decir que cantar me cambió la vida. Rumbo Sur es mi segunda casa.",
+    name: "Lucia Kihn",
+    text: "Las mejores clases de canto sin dudas. Personalizadas, con instrumentos en vivo, y de mucho nivel. Me encantan!!!",
   },
   {
-    name: "Andrea S.",
-    text: "Los shows en vivo son una experiencia inolvidable. Te preparás de a poco y cuando llegás al escenario, te sentís acompañado.",
+    name: "Pablo perez",
+    text: "Super satisfecho con las clases y con las muestras. Aprendí un montón a conocer mí voz y me llevo una re buena experiencia.",
   },
   {
-    name: "Martín L.",
-    text: "Siempre canté por placer pero nunca me había tomado en serio. Acá encontré el espacio para desarrollarme.",
+    name: "Adrian Pierotti",
+    text: "La mejor escuela de canto del pais.Son puro amor y pasion por la musica!!!!",
   },
 ];
 
