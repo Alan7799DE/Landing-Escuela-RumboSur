@@ -55,7 +55,7 @@ export const ContactSection = () => {
               <div className="rounded-3xl overflow-hidden shadow-2xl h-80">
                 <iframe
                   title="Ubicación de Rumbo Sur"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52323.64746478948!2d-56.23677082424193!3d-34.899999935698654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81c76e000001%3A0xabcdef1234567890!2sRumbo%20Sur!5e0!3m2!1ses!2suy!4v1234567890123!5m2!1ses!2suy"
+                  src="https://maps.app.goo.gl/S5p8X3zPiaVvMARJ9"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
