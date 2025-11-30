@@ -46,7 +46,7 @@ export const Navigation = () => {
             onClick={(e) => handleClick(e, "#inicio")}
             className="flex items-center hover:opacity-80 transition-opacity"
           >
-            <img src={logo} alt="Rumbo Sur - Escuela de Canto" className="h-12 md:h-16 w-auto" />
+            <img src={logo} alt="Rumbo Sur - Escuela de Canto" className="h-16 md:h-20 w-auto" />
           </a>
 
           {/* Desktop Menu */}
