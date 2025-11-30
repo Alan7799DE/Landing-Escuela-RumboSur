@@ -55,7 +55,7 @@ export const ContactSection = () => {
               <div className="rounded-3xl overflow-hidden shadow-2xl h-80">
                 <iframe
                   title="Ubicación de Rumbo Sur"
-                  src="https://maps.app.goo.gl/S5p8X3zPiaVvMARJ9"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5734569781343!2d-58.463985524261425!3d-34.564353672968515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb58d3a0bb197%3A0x95109b763ae4e49d!2sEscuela%20de%20Canto%20Rumbo%20Sur!5e0!3m2!1ses!2sar!4v1764542221015!5m2!1ses!2sar"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
