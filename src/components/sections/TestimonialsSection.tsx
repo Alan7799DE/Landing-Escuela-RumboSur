@@ -5,32 +5,32 @@ const testimonials = [
   {
     name: "Esteban Garcia",
     text: "Excelente espacio, muy profesional. Ideal para aprender. Me enseñó mucho más que otros profesores que conocí. Muy recomendable!!! Gracias!!!!!",
-    googleMapsUrl: "https://maps.app.goo.gl/rumbo-sur-review-1",
+    googleMapsUrl: "https://maps.app.goo.gl/spHfdAaYKaTskL1m7",
   },
   {
     name: "Monica",
     text: "Las mejores clases de canto que tomé! Samanta y Raúl son dos artistas talentosos y con la vocación de enseñar!",
-    googleMapsUrl: "https://maps.app.goo.gl/rumbo-sur-review-2",
+    googleMapsUrl: "https://maps.app.goo.gl/LSLyg7Diu4XXzjMm8",
   },
   {
     name: "Ana Gonzalez",
     text: "Una escuela de canto super cálida donde se puede aprender y crecer con mucho cariño de parte de los profes! Ambos son muy talentosos! 💞.",
-    googleMapsUrl: "https://maps.app.goo.gl/rumbo-sur-review-3",
+    googleMapsUrl: "https://maps.app.goo.gl/C7RbxaPLK1UfTawHA",
   },
   {
     name: "Lucia Kihn",
     text: "Las mejores clases de canto sin dudas. Personalizadas, con instrumentos en vivo, y de mucho nivel. Me encantan!!!",
-    googleMapsUrl: "https://maps.app.goo.gl/rumbo-sur-review-4",
+    googleMapsUrl: "https://maps.app.goo.gl/izTSH2xy5QMwg98b7",
   },
   {
     name: "Pablo perez",
     text: "Super satisfecho con las clases y con las muestras. Aprendí un montón a conocer mí voz y me llevo una re buena experiencia.",
-    googleMapsUrl: "https://maps.app.goo.gl/rumbo-sur-review-5",
+    googleMapsUrl: "https://maps.app.goo.gl/1APf4RLQRJv1Vys3A",
   },
   {
     name: "Adrian Pierotti",
     text: "La mejor escuela de canto del pais.Son puro amor y pasion por la musica!!!!",
-    googleMapsUrl: "https://maps.app.goo.gl/rumbo-sur-review-6",
+    googleMapsUrl: "https://maps.app.goo.gl/SLLWUqvkXx8bAqVX8",
   },
 ];
 
