@@ -41,16 +41,16 @@ export const TestimonialsSection = () => {
             {testimonials.map((testimonial, index) => (
               <button
                 key={index}
-                className="text-left w-full"
+                className="text-left w-full h-full"
               >
                 <Card
-                  className="bg-stage-foreground/5 border-stage-foreground/10 hover:bg-stage-foreground/10 transition-all duration-300 hover:scale-105 animate-fade-in cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  className="bg-stage-foreground/5 border-stage-foreground/10 hover:bg-stage-foreground/10 transition-all duration-300 hover:scale-105 animate-fade-in cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 h-full"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  <CardContent className="pt-6">
-                    <div className="space-y-4">
+                  <CardContent className="pt-6 h-full flex flex-col">
+                    <div className="space-y-4 flex-1 flex flex-col">
                       <Quote className="text-primary" size={32} />
-                      <p className="text-stage-foreground/90 leading-relaxed italic">
+                      <p className="text-stage-foreground/90 leading-relaxed italic flex-1">
                         "{testimonial.text}"
                       </p>
                       <div className="flex items-center gap-3 pt-4">
