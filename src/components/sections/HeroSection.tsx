@@ -24,8 +24,8 @@ export const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-32 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
-          <div className="flex justify-center mb-8">
-            <img src={logoRumboSur} alt="Logo Rumbo Sur" className="w-64 md:w-80 h-auto" />
+          <div className="flex justify-center mb-6">
+            <img src={logoRumboSur} alt="Logo Rumbo Sur" className="w-40 md:w-48 h-auto" />
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-stage-foreground leading-tight">
