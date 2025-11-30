@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "Inicio", href: "#inicio" },
@@ -44,9 +43,9 @@ export const Navigation = () => {
           <a
             href="#inicio"
             onClick={(e) => handleClick(e, "#inicio")}
-            className="flex items-center hover:opacity-80 transition-opacity"
+            className="text-2xl font-bold text-stage-foreground hover:text-primary transition-colors"
           >
-            <img src={logo} alt="Rumbo Sur - Escuela de Canto" className="h-12 md:h-16" />
+            Rumbo Sur
           </a>
 
           {/* Desktop Menu */}
