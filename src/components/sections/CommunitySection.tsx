@@ -3,18 +3,6 @@ import community2 from "@/assets/community-2.jpg";
 import community3 from "@/assets/community-3.jpg";
 import community4 from "@/assets/community-4.jpg";
 
-
-const keywords = [
-  "Acompañamiento",
-  "Confianza",
-  "Disfrute",
-  "Equipo",
-  "Crecimiento",
-  "Comunidad",
-  "Apoyo",
-  "Escucha",
-];
-
 export const CommunitySection = () => {
   return (
     <section id="comunidad" className="py-24 cream-section">
@@ -63,19 +51,6 @@ export const CommunitySection = () => {
                 />
               </div>
             </div>
-          </div>
-
-          {/* Keywords */}
-          <div className="flex flex-wrap justify-center gap-4 pt-8 animate-fade-in">
-            {keywords.map((keyword, index) => (
-              <span
-                key={index}
-                className="px-6 py-3 bg-primary/10 text-primary rounded-full font-semibold text-lg hover:bg-primary/20 transition-colors"
-                style={{ animationDelay: `${index * 50}ms` }}
-              >
-                {keyword}
-              </span>
-            ))}
           </div>
         </div>
       </div>
