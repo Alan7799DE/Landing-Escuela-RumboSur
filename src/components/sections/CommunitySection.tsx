@@ -3,7 +3,7 @@ import community2 from "@/assets/community-2.jpg";
 import community3 from "@/assets/community-3.jpg";
 import community4 from "@/assets/community-4.jpg";
 
-/*
+
 const keywords = [
   "Acompañamiento",
   "Confianza",
@@ -14,7 +14,6 @@ const keywords = [
   "Apoyo",
   "Escucha",
 ];
-*/
 
 export const CommunitySection = () => {
   return (
@@ -67,7 +66,6 @@ export const CommunitySection = () => {
           </div>
 
           {/* Keywords */}
-          /*
           <div className="flex flex-wrap justify-center gap-4 pt-8 animate-fade-in">
             {keywords.map((keyword, index) => (
               <span
@@ -79,7 +77,6 @@ export const CommunitySection = () => {
               </span>
             ))}
           </div>
-          */
         </div>
       </div>
     </section>
