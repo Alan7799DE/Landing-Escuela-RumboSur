@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Youtube, Instagram, Facebook } from "lucide-react";
+import samantaPhoto from "@/assets/samanta.jpg";
+import raulPhoto from "@/assets/raul.jpg";
 
 export const TeamSection = () => {
   return (
@@ -17,8 +19,8 @@ export const TeamSection = () => {
             {/* Samanta */}
             <div className="bg-background rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 animate-fade-in">
               <div className="space-y-4">
-                <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-                  <span className="text-4xl font-bold text-primary">S</span>
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 shadow-lg">
+                  <img src={samantaPhoto} alt="Samanta Musella" className="w-full h-full object-cover object-top" />
                 </div>
                 <h3 className="text-3xl font-bold text-center">Samanta Musella</h3>
                 <p className="text-center text-muted-foreground font-semibold">Cantora popular y vocal coach</p>
@@ -33,8 +35,8 @@ export const TeamSection = () => {
             {/* Raúl */}
             <div className="bg-background rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 animate-fade-in" style={{ animationDelay: "150ms" }}>
               <div className="space-y-4">
-                <div className="w-24 h-24 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-6">
-                  <span className="text-4xl font-bold text-secondary">R</span>
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 shadow-lg">
+                  <img src={raulPhoto} alt="Raúl Bervejillo" className="w-full h-full object-cover object-top" />
                 </div>
                 <h3 className="text-3xl font-bold text-center">Raúl Bervejillo</h3>
                 <p className="text-center text-muted-foreground font-semibold">Multi-instrumentista, cantautor y arreglador</p>
