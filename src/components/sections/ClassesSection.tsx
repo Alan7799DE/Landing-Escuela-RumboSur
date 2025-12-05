@@ -21,7 +21,7 @@ const classes = [
   {
     icon: Calendar,
     title: "Shows en vivo",
-    description: "Varios shows durante el año en espacios como Casa de las Artes. La oportunidad de compartir escenario con tus compañeros y vivir la experiencia del canto en vivo.",
+    description: "Varios shows durante el año en espacios culturales como Casa de las Artes. La oportunidad de compartir escenario con tus compañeros y vivir la experiencia del canto en vivo.",
   },
   {
     icon: Radio,
@@ -68,7 +68,7 @@ export const ClassesSection = () => {
 
           <div className="text-center space-y-6 pt-8 animate-fade-in">
             <p className="text-lg text-stage-foreground/90">
-              Escribinos para conocer los aranceles actualizados y la disponibilidad de horarios.
+              Escribinos para conocer los <strong>aranceles accesibles</strong> y la disponibilidad de horarios.
             </p>
             <Button
               size="lg"
