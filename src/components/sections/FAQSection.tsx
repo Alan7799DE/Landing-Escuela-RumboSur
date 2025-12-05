@@ -32,8 +32,12 @@ const faqs = [
   },
   {
     question: "¿Cuánto dura aproximadamente cada clase?",
-    answer: "Las clases individuales duran entre 45 minutos y 1 hora, dependiendo de la modalidad. En la primera charla definimos juntos qué te conviene más según tus objetivos.",
+    answer: "Las clases individuales duran entre 50 minutos, dependiendo de la modalidad. En la primera charla definimos juntos qué te conviene más según tus objetivos.",
   },
+  {
+    question: "¿Dan clases grupales?",
+    answer: "Los talleres grupales se realizan una vez por mes en la modalidad práctica escénica. Por clases compartidas, consultar.",
+  }
 ];
 
 export const FAQSection = () => {
