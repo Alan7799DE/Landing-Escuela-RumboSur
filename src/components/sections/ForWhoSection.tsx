@@ -4,7 +4,7 @@ const profiles = [
   {
     icon: UserPlus,
     title: "Nunca estudiaste canto",
-    description: "No necesitás experiencia previa. Te acompañamos desde el primer día a encontrar tu voz y ganar confianza.",
+    description: "No necesitás experiencia previa. Te acompañamos desde el primer día a conocer tu voz y ganar confianza.",
   },
   {
     icon: Home,
