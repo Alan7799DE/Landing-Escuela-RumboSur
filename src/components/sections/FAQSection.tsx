@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: "¿Cuánto dura aproximadamente cada clase?",
-    answer: "Las clases individuales duran entre 50 minutos.",
+    answer: "Las clases individuales tienn una duracion de 50 minutos.",
   },
   {
     question: "¿Dan clases grupales?",
