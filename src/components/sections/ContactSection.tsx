@@ -35,7 +35,7 @@ export const ContactSection = () => {
                 <MapPin className="text-primary flex-shrink-0 mt-1" size={24} />
                 <div>
                   <p className="text-stage-foreground/90 leading-relaxed">
-                    Nuestro estudio está ubicado en Belgrano, sobre la calle Cramer entre Av. Juramento y Mendoza.
+                    Nuestro estudio está ubicado en Belgrano, sobre la Av. Cramer, entre Juramento y Mendoza. CABA.
                     <br />
                     Escribinos para conocer la dirección exacta y coordinar tu visita.
                   </p>
