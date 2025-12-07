@@ -66,9 +66,12 @@ export const ClassesSection = () => {
             ))}
           </div>
 
-          <div className="text-center space-y-6 pt-8 animate-fade-in">
+          <div className="text-center space-y-4 pt-8 animate-fade-in">
+            <p className="text-2xl md:text-3xl font-bold text-primary">
+              ¡ARANCELES ACCESIBLES!
+            </p>
             <p className="text-lg text-stage-foreground/90">
-              Escribinos para conocer los <strong>aranceles accesibles</strong> y la disponibilidad de horarios.
+              Escribinos para conocer los valores actualizados y la disponibilidad de horarios.
             </p>
             <Button
               size="lg"
