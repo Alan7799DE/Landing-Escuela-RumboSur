@@ -22,8 +22,8 @@ export const CommunitySection = () => {
             <div className="grid gap-4">
               <div className="rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 animate-fade-in">
                 <img
-                  src={community1}
-                  alt="Grupo de alumnos celebrando en el escenario"
+                  src={community4}
+                  alt="Momento de show en vivo con alumnos cantando"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
               </div>
@@ -45,8 +45,8 @@ export const CommunitySection = () => {
               </div>
               <div className="rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 animate-fade-in" style={{ animationDelay: "300ms" }}>
                 <img
-                  src={community4}
-                  alt="Momento de show en vivo con alumnos cantando"
+                  src={community1}
+                  alt="Grupo de alumnos celebrando en el escenario"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
               </div>
