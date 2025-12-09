@@ -1,6 +1,6 @@
-import community1 from "@/assets/community-3.jpg";
+import community1 from "@/assets/community-1.jpg";
 import community2 from "@/assets/community-2.jpg";
-import community3 from "@/assets/community-1.jpg";
+import community3 from "@/assets/community-3.jpg";
 import community4 from "@/assets/community-4.jpg";
 
 export const CommunitySection = () => {
