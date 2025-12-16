@@ -1,9 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Youtube, Instagram, Facebook } from "lucide-react";
+import { useIsMobile } from "@/hooks/use-mobile";
 import samantaPhoto from "@/assets/samanta.jpg";
 import raulPhoto from "@/assets/raul.jpg";
 
 export const TeamSection = () => {
+  const isMobile = useIsMobile();
+
+  const handleCardClick = (url: string) => {
+    if (!isMobile) {
+      window.open(url, "_blank");
+    }
+  };
+
   return (
     <section id="sobre-nosotros" className="py-24 cream-section">
       <div className="container mx-auto px-4">
@@ -17,7 +26,10 @@ export const TeamSection = () => {
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Samanta */}
-            <div className="bg-background rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 animate-fade-in">
+            <div 
+              onClick={() => handleCardClick("https://www.youtube.com/@samantamusella")}
+              className={`bg-background rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 animate-fade-in ${!isMobile ? 'cursor-pointer' : ''}`}
+            >
               <div className="space-y-4">
                 <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 shadow-lg">
                   <img src={samantaPhoto} alt="Samanta Musella" className="w-full h-full object-cover object-top" />
@@ -33,7 +45,11 @@ export const TeamSection = () => {
             </div>
 
             {/* Raúl */}
-            <div className="bg-background rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 animate-fade-in" style={{ animationDelay: "150ms" }}>
+            <div 
+              onClick={() => handleCardClick("https://youtube.com/@unpasitomasalfondo")}
+              className={`bg-background rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 animate-fade-in ${!isMobile ? 'cursor-pointer' : ''}`}
+              style={{ animationDelay: "150ms" }}
+            >
               <div className="space-y-4">
                 <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 shadow-lg">
                   <img src={raulPhoto} alt="Raúl Bervejillo" className="w-full h-full object-cover object-top" />
