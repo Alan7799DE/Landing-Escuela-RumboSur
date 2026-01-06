@@ -59,6 +59,7 @@ export const HeroSection = () => {
               variant="outline"
               onClick={openWhatsApp}
               className="border-2 border-white/80 text-white bg-white/10 backdrop-blur-sm hover:bg-white/20 hover:border-white font-semibold text-lg px-8 py-6 rounded-full"
+              data-gtm="whatsapp"
             >
               <MessageCircle className="mr-2" size={20} />
               Escribinos por WhatsApp
