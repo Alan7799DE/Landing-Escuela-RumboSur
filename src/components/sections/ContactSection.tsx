@@ -59,6 +59,7 @@ export const ContactSection = () => {
                 size="lg"
                 onClick={openWhatsApp}
                 className="w-full bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold py-6 rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105"
+                data-gtm="whatsapp"
               >
                 <MessageCircle className="mr-2" size={20} />
                 Escribinos por WhatsApp
