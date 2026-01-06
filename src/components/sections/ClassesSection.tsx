@@ -77,6 +77,7 @@ export const ClassesSection = () => {
               size="lg"
               onClick={openWhatsApp}
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105"
+              data-gtm="whatsapp"
             >
               <MessageCircle className="mr-2" size={20} />
               Consultar por WhatsApp
