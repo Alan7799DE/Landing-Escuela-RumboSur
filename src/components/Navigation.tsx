@@ -8,7 +8,6 @@ const navItems = [
   { label: "Clases", href: "#clases" },
   { label: "Comunidad", href: "#comunidad" },
   { label: "Sobre nosotros", href: "#sobre-nosotros" },
-  { label: "Contacto", href: "#contacto" },
 ];
 
 export const Navigation = () => {
