@@ -53,6 +53,7 @@ export const HeroSection = () => {
             >
               Quiero mi clase de prueba
             </Button>
+            {/* Hidden for now - WhatsApp button
             <Button
               size="lg"
               variant="outline"
@@ -62,6 +63,7 @@ export const HeroSection = () => {
               <MessageCircle className="mr-2" size={20} />
               Escribinos por WhatsApp
             </Button>
+            */}
           </div>
         </div>
       </div>
