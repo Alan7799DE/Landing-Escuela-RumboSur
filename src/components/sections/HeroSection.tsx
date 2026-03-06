@@ -3,8 +3,8 @@ import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-stage.jpg";
 import logoRumboSur from "@/assets/logo-rumbo-sur.png";
 export const HeroSection = () => {
-  const scrollToContact = () => {
-    const element = document.querySelector("#contacto");
+  const scrollToProposal = () => {
+    const element = document.querySelector("#propuesta");
     if (element) {
       element.scrollIntoView({
         behavior: "smooth",
