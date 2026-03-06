@@ -73,6 +73,7 @@ export const ClassesSection = () => {
             <p className="text-lg text-stage-foreground/90">
               Escribinos para conocer los valores actualizados y la disponibilidad de horarios.
             </p>
+            {/* Hidden for now - WhatsApp button
             <Button
               size="lg"
               onClick={openWhatsApp}
@@ -81,6 +82,7 @@ export const ClassesSection = () => {
               <MessageCircle className="mr-2" size={20} />
               Consultar por WhatsApp
             </Button>
+            */}
           </div>
         </div>
       </div>
