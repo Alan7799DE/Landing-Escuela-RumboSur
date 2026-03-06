@@ -48,10 +48,10 @@ export const HeroSection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 md:pt-6">
             <Button
               size="lg"
-              onClick={scrollToContact}
+              onClick={scrollToProposal}
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105"
             >
-              Quiero mi clase de prueba
+              Conocé más sobre nosotros
             </Button>
             {/* Hidden for now - WhatsApp button
             <Button
