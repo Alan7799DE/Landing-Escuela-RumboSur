@@ -3,8 +3,8 @@ import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-stage.jpg";
 import logoRumboSur from "@/assets/logo-rumbo-sur.png";
 export const HeroSection = () => {
-  const scrollToContact = () => {
-    const element = document.querySelector("#contacto");
+  const scrollToProposal = () => {
+    const element = document.querySelector("#propuesta");
     if (element) {
       element.scrollIntoView({
         behavior: "smooth",
@@ -13,7 +13,7 @@ export const HeroSection = () => {
   };
   const openWhatsApp = () => {
     window.open(  "https://wa.me/5491136135864?text=Hola%21%20Estuve%20en%20la%20p%C3%A1gina%20y%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20las%20clases%20de%20canto....",
-  "_blank");
+   "_blank");
   };
   return (
     <section id="inicio" className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -49,11 +49,12 @@ export const HeroSection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 md:pt-6">
             <Button
               size="lg"
-              onClick={scrollToContact}
+              onClick={scrollToProposal}
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105"
             >
-              Quiero mi clase de prueba
+              Conocé más sobre nosotros
             </Button>
+            {/* WhatsApp button - hidden for future use
             <Button
               size="lg"
               variant="outline"
@@ -64,6 +65,7 @@ export const HeroSection = () => {
               <MessageCircle className="mr-2" size={20} />
               Escribinos por WhatsApp
             </Button>
+            */}
           </div>
         </div>
       </div>
