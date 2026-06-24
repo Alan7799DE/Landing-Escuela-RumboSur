@@ -1,73 +1,17 @@
-# Welcome to your Lovable project
+# Rumbo Sur — Escuela de Canto
 
-## Project info
+Sitio web institucional de **Rumbo Sur**, una escuela de canto en Belgrano, Buenos Aires. Presenta la propuesta de clases personalizadas y práctica escénica, el equipo de profesores, testimonios de alumnos, audios de práctica de la comunidad y un canal directo de contacto por WhatsApp.
 
-**URL**: https://lovable.dev/projects/4a6424c2-f7a1-4a4f-84ba-4238fbd87115
+🔗 **Sitio en producción:** [escueladecanto.net](https://escueladecanto.net/)
 
-## How can I edit this code?
+> Desarrollado con Lovable.
 
-There are several ways of editing your application.
+## Marketing y adquisición de alumnos
 
-**Use Lovable**
+El sitio tiene **Google Tag Manager** integrado, desde donde se configuraron **Google Analytics** y **Google Ads** para medir el comportamiento de los visitantes y correr campañas de adquisición orientadas a atraer nuevos alumnos a la escuela.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4a6424c2-f7a1-4a4f-84ba-4238fbd87115) and start prompting.
+## Stack técnico
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4a6424c2-f7a1-4a4f-84ba-4238fbd87115) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- React + TypeScript + Vite
+- Tailwind CSS + shadcn/ui (Radix UI primitives)
+- Optimizado para SEO (metadata, Open Graph, sitemap) dado que es un sitio orientado a captar tráfico orgánico y de campañas pagas
