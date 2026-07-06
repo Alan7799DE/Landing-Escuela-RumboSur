@@ -55,8 +55,8 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-stage-foreground/90 max-w-3xl mx-auto leading-relaxed">
-            Rumbo Sur es una escuela de canto que acompaña tu proceso de desarrollo personal y artístico. Con práctica
-            escénica, shows en vivo y un espacio cuidado para crecer.
+            Rumbo Sur es una escuela de canto en Belgrano que acompaña tu proceso de desarrollo personal y artístico. Con
+            práctica escénica, shows en vivo y un espacio cuidado para crecer.
           </p>
 
           <p className="text-base md:text-lg text-stage-foreground/80 max-w-2xl mx-auto">
