@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 // https://vitejs.dev/config/
-export default defineConfig(() => ({
+export default defineConfig(({ isSsrBuild }) => ({
   server: {
     host: "::",
     port: 8080,
@@ -15,14 +15,17 @@ export default defineConfig(() => ({
     },
   },
   build: {
-    // Separa las dependencias grandes en chunks propios para mejorar el
-    // cacheo entre despliegues y reducir el JS inicial.
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          "react-vendor": ["react", "react-dom", "react-router-dom"],
+    // manualChunks solo en el build del cliente: en SSR React es externo y
+    // rollup no permite meterlo en un chunk manual.
+    rollupOptions: isSsrBuild
+      ? {}
+      : {
+          output: {
+            // Separa el vendor de React en un chunk propio para mejorar el cacheo.
+            manualChunks: {
+              "react-vendor": ["react", "react-dom", "react-router-dom"],
+            },
+          },
         },
-      },
-    },
   },
 }));
