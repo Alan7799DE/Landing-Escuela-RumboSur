@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Youtube, Instagram, Facebook } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
-import samantaPhoto from "@/assets/samanta.jpg";
-import raulPhoto from "@/assets/raul.jpg";
+import samantaPhoto from "@/assets/samanta.webp";
+import raulPhoto from "@/assets/raul.webp";
 
 export const TeamSection = () => {
   const isMobile = useIsMobile();
@@ -32,7 +32,7 @@ export const TeamSection = () => {
             >
               <div className="space-y-4">
                 <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 shadow-lg">
-                  <img src={samantaPhoto} alt="Samanta Musella" className="w-full h-full object-cover object-top" />
+                  <img src={samantaPhoto} alt="Samanta Musella" className="w-full h-full object-cover object-top" width={500} height={703} loading="lazy" decoding="async" />
                 </div>
                 <h3 className="text-3xl font-bold text-center">Samanta Musella</h3>
                 <p className="text-center text-muted-foreground font-semibold">Cantora popular y vocal coach</p>
@@ -52,7 +52,7 @@ export const TeamSection = () => {
             >
               <div className="space-y-4">
                 <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 shadow-lg">
-                  <img src={raulPhoto} alt="Raúl Bervejillo" className="w-full h-full object-cover object-top" />
+                  <img src={raulPhoto} alt="Raúl Bervejillo" className="w-full h-full object-cover object-top" width={500} height={333} loading="lazy" decoding="async" />
                 </div>
                 <h3 className="text-3xl font-bold text-center">Raúl Bervejillo</h3>
                 <p className="text-center text-muted-foreground font-semibold">Multi-instrumentista, cantautor y arreglador</p>

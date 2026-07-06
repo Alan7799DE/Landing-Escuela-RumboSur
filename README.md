@@ -4,7 +4,14 @@ Sitio web institucional de **Rumbo Sur**, una escuela de canto en Belgrano, Buen
 
 🔗 **Sitio en producción:** [escueladecanto.net](https://escueladecanto.net/)
 
-> Desarrollado con Lovable.
+## Desarrollo local
+
+```bash
+npm install
+npm run dev      # servidor de desarrollo en http://localhost:8080
+npm run build    # build de producción en dist/
+npm run preview  # previsualiza el build de producción
+```
 
 ## Marketing y adquisición de alumnos
 
