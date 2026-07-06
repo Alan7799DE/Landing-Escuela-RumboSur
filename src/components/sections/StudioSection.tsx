@@ -1,6 +1,6 @@
-import studio1 from "@/assets/studio-1.jpg";
-import studio2 from "@/assets/studio-2.jpg";
-import studio3 from "@/assets/studio-3.jpg";
+import studio1 from "@/assets/studio-1.webp";
+import studio2 from "@/assets/studio-2.webp";
+import studio3 from "@/assets/studio-3.webp";
 
 export const StudioSection = () => {
   return (
@@ -33,6 +33,10 @@ export const StudioSection = () => {
                   src={studio1}
                   alt="Alumnas cantando al micrófono con auriculares en sesión de grabación"
                   className="w-full h-64 object-cover hover:scale-105 transition-transform duration-700"
+                  width={1200}
+                  height={1200}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="rounded-3xl overflow-hidden shadow-xl">
@@ -40,6 +44,10 @@ export const StudioSection = () => {
                   src={studio2}
                   alt="Alumno grabando con guitarra y micrófono"
                   className="w-full h-48 object-cover hover:scale-105 transition-transform duration-700"
+                  width={900}
+                  height={1247}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="rounded-3xl overflow-hidden shadow-xl">
@@ -47,6 +55,10 @@ export const StudioSection = () => {
                   src={studio3}
                   alt="Espacio de estudio con teclado y micrófono"
                   className="w-full h-48 object-cover hover:scale-105 transition-transform duration-700"
+                  width={900}
+                  height={1171}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>

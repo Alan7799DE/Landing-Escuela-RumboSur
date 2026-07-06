@@ -1,4 +1,4 @@
-import clubImage from "@/assets/club-canto.jpg";
+import clubImage from "@/assets/club-canto.webp";
 
 export const ProposalSection = () => {
   return (
@@ -36,6 +36,10 @@ export const ProposalSection = () => {
                 src={clubImage}
                 alt="Grupo de alumnos practicando en un ambiente íntimo con guitarra y teclado"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                width={1200}
+                height={872}
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>

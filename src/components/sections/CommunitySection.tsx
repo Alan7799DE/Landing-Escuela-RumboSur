@@ -1,7 +1,7 @@
-import community1 from "@/assets/community-1.jpg";
-import community2 from "@/assets/community-2.jpg";
-import community3 from "@/assets/community-3.jpg";
-import community4 from "@/assets/community-4.jpg";
+import community1 from "@/assets/community-1.webp";
+import community2 from "@/assets/community-2.webp";
+import community3 from "@/assets/community-3.webp";
+import community4 from "@/assets/community-4.webp";
 
 export const CommunitySection = () => {
   return (
@@ -25,6 +25,10 @@ export const CommunitySection = () => {
                   src={community4}
                   alt="Momento de show en vivo con alumnos cantando"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  width={1200}
+                  height={524}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 animate-fade-in" style={{ animationDelay: "200ms" }}>
@@ -32,6 +36,10 @@ export const CommunitySection = () => {
                   src={community2}
                   alt="Alumnos posando después del show con luces azules"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  width={1200}
+                  height={656}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>
@@ -41,6 +49,10 @@ export const CommunitySection = () => {
                   src={community3}
                   alt="Grupo mostrando diplomas en el escenario"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  width={1200}
+                  height={748}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 animate-fade-in" style={{ animationDelay: "300ms" }}>
@@ -48,6 +60,10 @@ export const CommunitySection = () => {
                   src={community1}
                   alt="Grupo de alumnos celebrando en el escenario"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  width={1200}
+                  height={900}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>
