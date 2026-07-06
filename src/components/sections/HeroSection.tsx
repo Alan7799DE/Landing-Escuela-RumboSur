@@ -1,7 +1,15 @@
+import type { ImgHTMLAttributes } from "react";
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-stage.webp";
 import logoRumboSur from "@/assets/logo-rumbo-sur.webp";
+
+// fetchpriority (minúscula) es el atributo HTML real; React 18 no lo tipa
+// (solo conoce `fetchPriority`, que no aplica al DOM en esta versión de
+// React). Se pasa vía props tipadas acá para que se serialice tanto en el
+// cliente como en renderToString (SSR); un ref no serviría: no corre en SSR.
+type ImgProps = ImgHTMLAttributes<HTMLImageElement> & { fetchpriority?: "high" | "low" | "auto" };
+
 export const HeroSection = () => {
   const scrollToProposal = () => {
     const element = document.querySelector("#propuesta");
@@ -20,15 +28,16 @@ export const HeroSection = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src={heroImage}
-          alt="Comunidad de Rumbo Sur en el escenario"
-          className="w-full h-full object-cover"
-          width={1920}
-          height={1440}
-          loading="eager"
-          decoding="async"
-          // fetchpriority se setea vía ref: React 18 no lo soporta como prop.
-          ref={(el) => el?.setAttribute("fetchpriority", "high")}
+          {...({
+            src: heroImage,
+            alt: "Comunidad de Rumbo Sur en el escenario",
+            className: "w-full h-full object-cover",
+            width: 1920,
+            height: 1440,
+            loading: "eager",
+            decoding: "async",
+            fetchpriority: "high",
+          } satisfies ImgProps)}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-stage-dark/80 via-stage-dark/70 to-stage-dark/90" />
       </div>
@@ -38,13 +47,15 @@ export const HeroSection = () => {
         <div className="max-w-4xl mx-auto space-y-2 md:space-y-4 animate-fade-in">
           <div className="flex justify-center mb-1">
             <img
-              src={logoRumboSur}
-              alt="Logo Rumbo Sur"
-              className="w-40 md:w-44 h-auto"
-              width={400}
-              height={533}
-              decoding="async"
-              ref={(el) => el?.setAttribute("fetchpriority", "high")}
+              {...({
+                src: logoRumboSur,
+                alt: "Logo Rumbo Sur",
+                className: "w-40 md:w-44 h-auto",
+                width: 400,
+                height: 533,
+                decoding: "async",
+                fetchpriority: "high",
+              } satisfies ImgProps)}
             />
           </div>
 
