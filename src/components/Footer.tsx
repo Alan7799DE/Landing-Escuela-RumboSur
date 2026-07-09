@@ -57,12 +57,12 @@ export const Footer = () => {
               <p>
                 Diseñado y Desarrollado por{" "}
                 <a
-                  href="https://atautomation.dev/"
+                  href="https://niveals.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline transition-all"
                 >
-                  AT Automatizaciones
+                  Niveals
                 </a>
               </p>
             </div>
