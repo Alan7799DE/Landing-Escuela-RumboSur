@@ -15,24 +15,24 @@ const faqs = [
     answer: "Las clases de canto están abiertas desde los 14 años en adelante. Trabajamos tanto con adolescentes como con adultos de todas las edades.",
   },
   {
-    question: "¿Hace falta saber tocar un instrumento?",
-    answer: "No, no hace falta. En las clases tenés acompañamiento en vivo de guitarra o piano. Lo importante es tu voz y tus ganas de cantar.",
+    question: "¿Hace falta saber música?",
+    answer: "No, no hace falta saber música, ni tocar instrumentos. En las clases tenés acompañamiento en vivo de guitarra o piano. Lo importante es tu voz y tus ganas de cantar.",
   },
   {
-    question: "¿Qué pasa si me da mucha vergüenza cantar frente a otros?",
-    answer: "Es algo súper común y normal. Empezamos de a poco, en un espacio privado y cuidado. La práctica escénica grupal es opcional al principio, y cuando te sientas listo/a, te acompañamos a dar ese paso.",
+    question: "¿Qué pasa si me da mucha vergüenza cantar?",
+    answer: "Es algo súper común y normal. Empezamos de a poco, en un espacio privado y cuidado. Los talleres grupales son opcionales al principio y cuando consideremos que es el momento te acompañamos a dar ese paso.",
   },
   {
     question: "¿Puedo empezar en cualquier momento del año?",
-    answer: "Sí, las clases están abiertas todo el año. Podés empezar cuando quieras, según disponibilidad de horarios.",
+    answer: "Sí, damos clases todo el año. Podés empezar cuando quieras. No cobramos matrícula de inscripción.",
   },
   {
     question: "¿Las clases son presenciales, online o ambas?",
     answer: "Las clases son presenciales en nuestro espacio. Es importante el encuentro cara a cara, el acompañamiento en vivo y la experiencia del sonido en el espacio.",
   },
   {
-    question: "¿Cuánto dura aproximadamente cada clase?",
-    answer: "Las clases individuales tienen una duracion de 50 minutos.",
+    question: "¿Cuánto dura cada clase?",
+    answer: "Los encuentros individuales tienen una duración de 50 minutos. Los talleres grupales son de 1 hora y media (aprox).",
   },
   {
     question: "¿Dan clases grupales?",
