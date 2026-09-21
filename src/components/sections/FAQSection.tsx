@@ -34,10 +34,6 @@ const faqs = [
     question: "¿Cuánto dura cada clase?",
     answer: "Los encuentros individuales tienen una duración de 50 minutos. Los talleres grupales son de 1 hora y media (aprox).",
   },
-  {
-    question: "¿Dan clases grupales?",
-    answer: "Los talleres grupales se realizan una vez por mes en la modalidad práctica escénica. Por clases compartidas, consultar.",
-  }
 ];
 
 export const FAQSection = () => {
