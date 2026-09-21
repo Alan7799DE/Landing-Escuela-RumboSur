@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Music, Users, Mic2, Calendar, Radio, MessageCircle } from "lucide-react";
+import { Music, Users, Guitar, Mic2, Calendar, Radio, MessageCircle } from "lucide-react";
 
 const classes = [
   {
@@ -12,6 +12,11 @@ const classes = [
     icon: Users,
     title: "Clases de canto para menores",
     description: "Desde los 14 años. Un espacio para que descubran su voz, trabajen la expresión y desarrollen seguridad vocal en un ambiente cuidado y divertido.",
+  },
+  {
+    icon: Guitar,
+    title: "Talleres grupales de canto",
+    description: "Cantamos el repertorio individual de cada uno con músico en vivo, hacemos ensambles vocales, ejercicios técnicos y mucho más! Todo con esa linda energía de grupo y el enriquecimiento que nos aporta compartir con otros compañeros.",
   },
   {
     icon: Mic2,
