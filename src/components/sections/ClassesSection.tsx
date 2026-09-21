@@ -20,7 +20,7 @@ const classes = [
   },
   {
     icon: Mic2,
-    title: "Club de Canto / Práctica escénica",
+    title: "Club de Canto / Mini Shows",
     description: "Encuentros grupales mensuales donde practicás con micrófono, sonido y luces. Te preparás para el escenario en un ambiente de acompañamiento y comunidad.",
   },
   {
