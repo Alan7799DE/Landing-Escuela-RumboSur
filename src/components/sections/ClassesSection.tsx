@@ -26,7 +26,7 @@ const classes = [
   {
     icon: Calendar,
     title: "Shows en vivo",
-    description: "Varios shows durante el año en espacios culturales como Casa de las Artes. La oportunidad de compartir escenario con tus compañeros y vivir la experiencia del canto en vivo.",
+    description: "Producimos 1 o 2 shows por año en diferentes espacios culturales. Es la oportunidad de compartir tus canciones con tus seres queridos o la gente que querés que te escuche cantar y vivir la experiencia del canto en vivo frente al público.",
   },
   {
     icon: Radio,
