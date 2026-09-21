@@ -34,6 +34,10 @@ const faqs = [
     question: "¿Cuánto dura cada clase?",
     answer: "Los encuentros individuales tienen una duración de 50 minutos. Los talleres grupales son de 1 hora y media (aprox).",
   },
+  {
+    question: "¿Cómo saber si me conviene individuales o grupales?",
+    answer: "Siempre te invitamos a hacer una primera clase individual de prueba, donde charlamos objetivos y te contaremos un poco más acerca de cómo trabajamos.",
+  },
 ];
 
 export const FAQSection = () => {
