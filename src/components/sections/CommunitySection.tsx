@@ -11,9 +11,9 @@ export const CommunitySection = () => {
           <div className="text-center space-y-6 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold">Nuestra comunidad</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              En Rumbo Sur no estás solo/a cuando cantás. Hay prácticas escénicas mensuales con micrófono,
-              sonido y luces. Hacemos shows en vivo varias veces al año en espacios como Casa de las Artes.
-              Los alumnos comparten escenario, se escuchan entre sí y se acompañan.
+              En Rumbo Sur no estás solo/a cuando cantás. Te proponemos talleres y prácticas escénicas
+              grupales con micrófono, sonido y luces. Hacemos shows en vivo varias veces al año.
+              Compartimos escenario, nos escuchamos y aprendemos unos de otros.
             </p>
           </div>
 
