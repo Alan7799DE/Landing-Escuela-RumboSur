@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Music, Users, Mic2, Calendar, Radio, MessageCircle } from "lucide-react";
+import { Music, Users, Guitar, Mic2, Calendar, Radio, MessageCircle } from "lucide-react";
 
 const classes = [
   {
@@ -14,14 +14,19 @@ const classes = [
     description: "Desde los 14 años. Un espacio para que descubran su voz, trabajen la expresión y desarrollen seguridad vocal en un ambiente cuidado y divertido.",
   },
   {
+    icon: Guitar,
+    title: "Talleres grupales de canto",
+    description: "Cantamos el repertorio individual de cada uno con músico en vivo, hacemos ensambles vocales, ejercicios técnicos y mucho más! Todo con esa linda energía de grupo y el enriquecimiento que nos aporta compartir con otros compañeros.",
+  },
+  {
     icon: Mic2,
-    title: "Club de Canto / Práctica escénica",
+    title: "Club de Canto / Mini Shows",
     description: "Encuentros grupales mensuales donde practicás con micrófono, sonido y luces. Te preparás para el escenario en un ambiente de acompañamiento y comunidad.",
   },
   {
     icon: Calendar,
     title: "Shows en vivo",
-    description: "Varios shows durante el año en espacios culturales como Casa de las Artes. La oportunidad de compartir escenario con tus compañeros y vivir la experiencia del canto en vivo.",
+    description: "Producimos 1 o 2 shows por año en diferentes espacios culturales. Es la oportunidad de compartir tus canciones con tus seres queridos o la gente que querés que te escuche cantar y vivir la experiencia del canto en vivo frente al público.",
   },
   {
     icon: Radio,

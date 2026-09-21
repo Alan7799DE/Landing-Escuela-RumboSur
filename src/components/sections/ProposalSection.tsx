@@ -13,19 +13,23 @@ export const ProposalSection = () => {
               </h2>
               <div className="space-y-4 text-lg leading-relaxed">
                 <p>
-                  Rumbo Sur fue creada por <strong>Samanta Musella</strong> y <strong>Raúl Bervejillo</strong>,
-                  dos artistas que viven de la música, están cumpliendo sus sueños y acompañan a otros
-                  a hacer lo mismo.
+                  Rumbo Sur fue creado por <strong>Samanta y Raúl</strong>, dos{" "}
+                  <strong>artistas independientes</strong> que están cumpliendo sus sueños y acompañan
+                  a otros a cumplir los suyos.
                 </p>
                 <p>
                   Acá el foco no es sólo la técnica, sino el <strong>encuentro con uno mismo</strong>,
-                  la expresión auténtica y la confianza para mostrarte al mundo.
+                  la <strong>expresión auténtica</strong> y la{" "}
+                  <strong>confianza para mostrarte al mundo</strong>.
                 </p>
                 <p>
                   Rumbo Sur es un <strong>espacio cuidado, amoroso y personalizado</strong>, donde cada
-                  persona es única y su proceso es respetado. Te acompañamos a encontrar tu voz y a
-                  animarte al escenario, porque cantar es mucho más que una técnica: es una forma de
-                  conectar con tu esencia.
+                  persona es única y su proceso es respetado.
+                </p>
+                <p>
+                  Te acompañamos a <strong>encontrar tu voz</strong> y a{" "}
+                  <strong>animarte al escenario</strong>, porque cantar es mucho más que una técnica: es
+                  una forma de <strong>conectar con tu esencia</strong>.
                 </p>
               </div>
             </div>
