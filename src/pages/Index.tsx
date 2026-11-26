@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/Navigation";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { SummerPopup } from "@/components/SummerPopup";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { ProposalSection } from "@/components/sections/ProposalSection";
 import { ClassesSection } from "@/components/sections/ClassesSection";
@@ -34,6 +35,7 @@ const Index = () => {
       <ContactSection />
       <Footer />
       <WhatsAppButton />
+      <SummerPopup />
     </div>
   );
 };
